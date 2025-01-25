@@ -1,0 +1,163 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #fefefe;
+  color: #2c2c2c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  list-style-type: none;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: currentColor;
+}
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+.conteiner {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* --------------------- */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 30px;
+}
+
+.header-logo {
+  padding: 10px 0;
+  margin-right: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.header-nav-link {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 28px 0;
+  display: block;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  text-decoration: underline;
+  color: #bbf330;
+}
+.main-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border-radius: 30px;
+  border: 0;
+  padding: 6px 18px;
+}
+
+/* hero section */
+
+.hero-container {
+  margin-left: 16px auto;
+  align-items: center;
+}
+
+.hero {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+}
+.hero-text {
+  line-height: 1.5;
+}
+.hero-img {
+  height: 528px;
+  width: 528px;
+  padding: 26px;
+  background-color: #ffe550;
+  border-radius: 100%;
+  border: 0;
+  margin: 14px 15px 14px 0;
+}
+/* продовження від срави на херо секції */
+
+/* test wrap */
+
+.conteiner {
+}
+.dishes-container {
+}
+.dishes {
+}
+.dishes-text {
+}
+
+.dishes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.dishes-item {
+  height: calc((100% - 32px) / 3);
+}
+
+.product-section {
+  padding: 180px;
+}
+.container {
+  width: 1280px;
+}
+.product-container {
+}
+.product-title {
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.product-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.product-item {
+}
+
+.offering-container {
+  background-color: #ffe550;
+}
